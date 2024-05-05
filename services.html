@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shieldwise Security</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://i.pinimg.com/736x/ed/3d/3a/ed3d3a74d77644262132e77dfe81819f.jpg');
+        background-size: cover;
+    }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        section {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+      .container1 {
+          width: 100vw; /* Set the width to 100% of the viewport width */
+          max-width: none; /* Remove the maximum width constraint */
+          margin: 0; /* Remove the margin */
+          padding: 0; /* Remove the padding */
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .content {
+        flex: 1;
+        margin-left: 20px;
+      }
+      
+      .security-image {
+        width: 40 %;
+        height: auto;
+        border-radius: 10px; /* Match container's border radius */
+      }
+      
+      .trust-heading {
+        font-family: sans-serif; /* Replace Comic Sans with a professional font */
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      p {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #333;
+        }
+        
+
+        
+ /*          :horizontal images         */   
+      
+     
+
+  .container {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 50px;
+    padding: 0;
+    animation: moveContainer 10s linear infinite; /* Adjust the duration as needed */
+    
+}
+
+
+.service-list {
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    margin-bottom: 20px; /* Add space at the bottom to prevent overlap with scrollbar */
+    overflow-x: auto;
+}
+
+    
+  .service-item {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #f0f0f0;
+      border-radius: 10px;
+      padding: 2rem;
+      background-color: #fff;; /* Set background color to transparent */
+      width: 100%; /* Make the width 100% of the container */
+      max-width:100 px; /* Set a maximum width if needed */
+      margin: 1rem;
+      }
+
+    
+    .service-symbol {
+        font-size: 4rem;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+    
+    .service-item h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    
+    .service-item p {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #666;
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .service-item img {
+        width: 100%; /* Make images fill their container */
+        max-height: 100px; /* Set maximum height for consistency */
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
+        border-radius: 5px; /* Add border radius for a rounded look */
+        margin-top: 10px; /* Add space between paragraph and image */
+    }
+
+      footer {
+          background-color: #333;
+          color: #fff;
+          padding: 30px;
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-start;
+          flex-wrap: wrap;
+      }
+
+      .social-media,
+      .contact-info,
+      .privacy-links {
+          margin-bottom: 20px;
+      }
+
+      .social-media a {
+          margin-right: 10px;
+          color: #fff;
+          text-decoration: none;
+          font-size: 20px;
+      }
+
+      .contact-info p {
+          margin: 5px 0;
+      }
+
+      .privacy-links a {
+          margin-right: 10px;
+          color: #fff;
+          text-decoration: none;
+      }
+ 
+     /*                     new part       */
+
+
+  .last-part {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.last-part h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.last-part p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%; /* Allow the text to take full width on smaller screens */
+    margin-right: 0; /* Remove space between paragraph and image on smaller screens */
+}
+
+.commitment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.commitment-item {
+    width: calc(33.33% - 2rem);
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.commitment-item:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .commitment-item {
+        width: calc(50% - 2rem); /* Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .commitment-item {
+        width: 100%; /* Full width for even smaller screens */
+    }
+}
+
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Phone Number Navigation Bar -->
+        <nav class="phone-bar">
+            <div class="call-us">Call us on: 714-716-7430 </div>
+        </nav>
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="logo-container">
+                <img src="img/one.png" alt="Shieldwise Security Logo" class="logo">
+            </div>
+        </nav>
+    </header>
+    <!-- Security Services Section -->
+    <main>
+      <div class="container1">
+        <img src="img/mypic.png" alt="Security Services Image" class="security-image">
+        <div class="content">
+          <h2 class="trust-heading">Trust us with your security</h2>
+          <p>Rely on us for your security needs. Our company is available for events and year-round business needs. We have the capability to fulfill all your security requirements with well-trained, qualified, and certified agents, ensuring that we meet all private security standards.</p> 
+         
+        </div>
+      </div>
+
+<!------------------------   contianer         ----->            
+
+
+  
+      <div class="container">
+    <h2 style="text-align: center; font-size: 36px;">Our Services</h2>
+    <div class="service-list">
+        <!-- Security Guard Services -->
+        <div class="service-item">
+            <span class="service-symbol">&#128273;</span>
+            <div>
+                <h3>Security Guard Services</h3>
+                <p>Deploying trained security personnel to monitor and patrol premises. Conducting security checks and inspections.</p>
+            </div>
+            <img src="img/10.jpeg" alt="Image 1">
+        </div>
+
+        <!-- Event Security -->
+        <div class="service-item">
+            <span class="service-symbol">&#127915;</span>
+            <div>
+                <h3>Event Security</h3>
+                <p>Providing security services for events such as concerts, conferences, sporting events, and private parties to ensure the safety of attendees.</p>
+            </div>
+            <img src="img/11.webp" alt="Image 2">
+        </div>
+
+        <!-- Corporate Security -->
+        <div class="service-item">
+            <span class="service-symbol">&#128373;</span>
+            <div>
+                <h3>Corporate Security</h3>
+                <p>Protecting corporate offices, business premises, and employees from theft, vandalism, and unauthorized access.</p>
+            </div>
+            <img src="img/14.webp" alt="Image 3">
+        </div>
+
+        <!-- Retail Security -->
+        <div class="service-item">
+            <span class="service-symbol">&#128722;</span>
+            <div>
+                <h3>Retail Security</h3>
+                <p>Preventing theft and shoplifting in retail environments, monitoring surveillance systems, and assisting in apprehending shoplifters.</p>
+            </div>
+            <img src="img/15.jpg" alt="Image 4">
+        </div>
+
+        <!-- Residential Security -->
+        <div class="service-item">
+            <span class="service-symbol">&#127968;</span>
+            <div>
+                <h3>Residential Security</h3>
+                <p>Protecting residential properties, including gated communities and individual homes, by monitoring entrances, patrolling neighborhoods, and responding to security threats.</p>
+            </div>
+            <img src="img/15.jpg" alt="Image 6">
+        </div>
+
+        <!-- Construction Site Security -->
+        <div class="service-item">
+            <span class="service-symbol">&#128296;</span>
+            <div>
+                <h3>Construction Site Security</h3>
+                <p>Securing construction sites to prevent theft of equipment and materials, as well as ensuring the safety of workers.</p>
+            </div>
+            <img src="img/16.jpg" alt="Image 7">
+        </div>
+
+        <!-- Critical Infrastructure Protection -->
+        <div class="service-item">
+            <span class="service-symbol">&#128737;</span>
+            <div>
+                <h3>Critical Infrastructure Protection</h3>
+                <p>Guarding critical infrastructure such as power plants, water treatment facilities, and communication centers to prevent sabotage or unauthorized access.</p>
+            </div>
+            <img src="img/17.jpg" alt="Image 8">
+        </div>
+    </div>
+</div>
+
+     
+      <!-----           write part       ----->
+
+      
+<div class="last-part "> <h1>At ShieldWise We Provide Top Security Professionals.</h1>
+<p style="font-size: 17px; line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin-right: 20px; /* Add space between paragraph and image */">Your At ShieldWise Security, we take pride in delivering the highest quality security guard services in California. Our commitment to excellence begins with an uncompromising selection process, ensuring that all our security professionals are state-registered, licensed by the state of California, and meticulously vetted through comprehensive interviews, background checks, and drug testing. We prioritize the recruitment of exceptional individuals and invest significantly in their training, equipping them with the skills and knowledge needed to navigate real-world scenarios effectively. Our security guards not only undergo rigorous training but also have their instincts refined to enhance their inherent abilities, fostering confident and competent professionals. Upholding a distinguished appearance, our guards consistently maintain proper identification, adorned in sharp attire that reflects professionalism and trust. We believe in unwavering compliance, meticulously following client-specific regulations, internal policies, and client instructions. This dedication, coupled with guaranteed arrival times and the provision of necessary tools, ensures that ShieldWise Security stands as the benchmark for the highest quality security guards in California.</p>
+      <div class="commitment">
+          <div class="commitment-item">
+              <h2>Uncompromising Selection Process</h2>
+              <p><strong>State-Registered:</strong> All our guards are licensed by the state of California, ensuring adherence to rigorous regulations.</p>
+              <p><strong>Thorough Screening:</strong> We utilize comprehensive interviews, background checks, and drug testing to guarantee the integrity and suitability of our personnel.</p>
+          </div>
+
+          <div class="commitment-item">
+              <h2>Unparalleled Training</h2>
+              <p><strong>Invest in Preparedness:</strong> Equip our officers with the skills and knowledge to navigate real-world scenarios effectively.</p>
+              <p><strong>Refine Instincts:</strong> Enhance inherent abilities through meticulous training programs, fostering confident and competent professionals.</p>
+          </div>
+
+          <div class="commitment-item">
+              <h2>Professional Appearance</h2>
+              <p><strong>Proper Identification:</strong> Always displaying their official identification cards while on duty.</p>
+              <p><strong>Sharp Attire:</strong> Maintaining a professional image through clean and pressed uniforms, polished shoes, and well-groomed appearance.</p>
+          </div>
+
+          <div class="commitment-item">
+              <h2>Unwavering Compliance</h2>
+              <p><strong>Client-Specific Regulations:</strong> We meticulously follow your established protocols and guidelines, ensuring seamless integration into your operation.</p>
+              <p><strong>Internal Policies:</strong> All guards are thoroughly versed in our company's manual, upholding the highest standards of conduct and professionalism.</p>
+              <p><strong>Client Instructions:</strong> They diligently follow designated post orders provided by your team, ensuring a comprehensive understanding of their duties.</p>
+          </div>
+
+          <div class="commitment-item">
+              <h2>Timely and Prepared</h2>
+              <p><strong>Guaranteed Arrival Times:</strong> Especially during guard transitions, our personnel arrive on time to receive thorough site briefings and ensure a seamless handover of responsibilities.</p>
+          </div>
+
+          <div class="commitment-item">
+              <h2>Equipped for Success</h2>
+              <p>Our security personnel possess the necessary tools to effectively perform their duties.</p>
+          </div>
+      </div>
+    
+    </main>
+
+
+ <!-- Footer Section -->
+  <footer style="background-color: black; width: 100%; box-sizing: border-box; margin: 0; color: white; padding: 20px; text-align: center;">
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 10px;">Connect with Us</h3>
+        <a href="https://www.instagram.com/shieldwisesecurity/" target="_blank" title="Instagram" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-instagram" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61556347858360" target="_blank" title="Facebook" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-facebook-f" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+        <a href="#" target="_blank" title="Twitter" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-twitter" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 30px;">
+        <h3 style="margin-top: 80px;">Copyright Disclaimer:</h3>
+        <p style="margin-top: 30px; font-size: 16px; color: white;"> All content on this website is copyrighted and owned by ShieldWise Security. Unauthorized use or reproduction is strictly prohibited.</p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 10px;">Contact Information</h3>
+        <p style="margin: 0; font-size: 16px; color: white;">Email: <a href="mailto:info@shieldwisesecurity.com" style="color: white;">info@shieldwisesecurity.com</a></p>
+    </div>
+
+</footer>
+
+
+
+
+
+  
+</body>
+
+</html>

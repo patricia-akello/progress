@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Font Awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - ShieldWise Security</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        header {
+            color: #fff;
+            padding: 10px 10px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            min-height: 500px; /* Set a minimum height */
+            background-image: url('img/back.webp'); /* Replace 'path/to/back.webp' with the actual path to your image */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px; /* Adjusted form length */
+            margin: auto;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .social-media,
+        .contact-info,
+        .privacy-links {
+            margin-bottom: 20px;
+        }
+
+        .social-media a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .privacy-links a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Phone Number Navigation Bar -->
+        <nav class="phone-bar">
+            <div style="color: black;">
+                <div class="call-us">Call us on: 714-716-7430 </div>
+            </div>
+        </nav>
+
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <ul style="color: #000;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="logo-container">
+                <img src="img/one.png" alt="Shieldwise Security Logo">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Body Section -->
+    <!-- contact.html -->
+
+    <main>
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+   <footer>
+    <div class="social-media" style="text-align: center; margin-bottom: 20px;">
+    <h3 style="margin-bottom: 10px;">Connect with Us</h3>
+    <a href="https://www.instagram.com/shieldwisesecurity/" target="_blank" title="Instagram" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-instagram" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61556347858360" target="_blank" title="Facebook" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-facebook-f" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+    <a href="#" target="_blank" title="Twitter" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-twitter" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+</div>
+
+    <div class="privacy-links" style="text-align: center; margin-bottom: 30px;">
+        <h3 style="margin-top: 80px;">Copyright Disclaimer:</h3>
+        <p style="margin-top: 30px; font-size: 16px;"> All content on this website is copyrighted and owned by ShieldWise Security. Unauthorized use or reproduction is strictly prohibited.</p>
+    </div>
+
+    <div class="contact-info" style="text-align: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 10px;">Contact Information</h3>
+        <p class="emails" style="margin: 0; font-size: 16px;">Email: <a href="mailto:info@shieldwisesecurity.com" style="color: white;">info@shieldwisesecurity.com</a></p>
+    </div>
+</footer>
+
+
+
+    <!-- Add this JavaScript code at the end of your HTML body section -->
+    <!-- Add SweetAlert library (place this in your head section or before using it) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script>
+        function submitForm() {
+            // Get form values
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+
+            // Check if any of the fields is empty
+            if (firstName === '' || lastName === '' || phone === '' || email === '') {
+                // Use SweetAlert for a more stylish alert
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please fill in all the fields!',
+                    confirmButtonColor: '#333',
+                });
+            } else {
+                // You can implement API integration or form submission logic here
+
+                // Use SweetAlert for a more stylish success alert
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: 'Form submitted successfully!',
+                    confirmButtonColor: '#333',
+                });
+
+                document.getElementById("contactForm").reset();
+            }
+        }
+    </script>
+</body>
+
+</html>
