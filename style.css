@@ -1,0 +1,315 @@
+
+
+ body {
+
+   margin: 0;
+   padding: 0;
+   font: 15px Arial, sans-serif;
+   overflow-x: hidden;
+   
+  
+ }
+@media only screen and (max-width: 600px) {
+body {
+    font-size: 14px;
+ }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .35s ease;
+    font-size: 20px;
+}
+
+.active{
+  box-shadow: 0 3px 0 0 currentcolor;
+}
+
+nav.main-nav {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+
+        li {
+            margin-left: .75em;
+            margin-right: .75em;
+        }
+
+        &:hover {
+            a {
+                color: #CCC;
+
+                &:hover {
+                    color: #000;
+                    box-shadow: 0 3px 0 0 currentcolor;
+                    
+                }
+            }
+        }
+    }
+}
+
+.logo-container {
+    margin-left: auto; 
+    max-width: 10%; /* Set the maximum width of the logo container */
+}
+
+/* Add styles for the logo image if needed */
+.logo-container img {
+    max-width: 100%; 
+    height: auto; /* Allow the height to adjust automatically */
+    display: block; /* Remove any extra spacing around the image */
+}
+
+
+
+header {
+  background-color: #F5F7F8;
+  color: black;
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* Phone Number Navigation Bar */
+.phone-bar {
+  background-color: #F5F7F8; /* Yellow background color for the phone bar */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  font-size: 25px; /* Adjust font size as needed */
+  transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.call-us {
+  display: flex; /* Allow horizontal layout for text and icon */
+  align-items: center; /* Center content vertically */
+  font-size: 18px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+  padding: 0.5rem 1rem; /* Add some padding for visual comfort */
+  border-radius: 4px; /* Add subtle rounded corners */
+  background-color: #e8f0fe; /* Light blue background */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: background-color 0.2s ease-in-out; /* Smooth transition */
+}
+
+.call-us:hover {
+  background-color: #d0e3f8; /* Slightly darker blue on hover */
+  cursor: pointer; /* Indicate interactivity */
+  font-weight: bolder;
+  
+}
+
+/* Optional icon styling */
+.call-us i {
+  margin-right: 0.5rem; /* Add space between icon and text */
+  font-size: 1.2em; /* Adjust icon size as needed */
+}
+
+/* Responsive adjustments (media queries) */
+@media only screen and (max-width: 768px) {
+  .call-us {
+    font-size: 16px; /* Adjust for smaller screens */
+    padding: 0.3rem 0.8rem; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Main Navigation Bar */
+/* Main Navigation Bar */
+.main-nav {
+  width: 100%;
+  background-color: #F5F7F8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px; /* Decreased top and bottom padding */
+}
+
+
+
+/* Logo Container */
+.logo-container {
+  text-align: right;
+  width: 10%; /* Adjust width as needed */
+  height: 10%; /* Adjust height as needed */
+}
+
+.logo-container img {
+  max-width: 100%; /* Make sure the logo doesn't exceed the container width */
+  max-height: 100%; /* Make sure the logo doesn't exceed the container height */
+}
+
+/*                1picture                         */
+/* Media Queries for Responsiveness */
+
+
+
+/*                    shieldwise secuirty part                    */
+
+
+
+#flag {
+    width: auto; 
+    height: 50%;
+    
+}
+.img2 {
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.img2 > img {
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto; /* Allow the height to adjust automatically */
+    display: block; /* Remove any extra spacing around the image */
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 3;
+  padding-right: 20px; /* Add some space between the text and the image */
+}
+
+.img-container {
+  flex: 1;
+  text-align: center; /* Center the image within its container */
+}
+
+@media(min-width: 768px) {
+  .img-container {
+    position: absolute;
+    right: 2vh;
+    top: 223vh;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+  }
+  .half-width {
+    width: 60%;
+  }
+
+  .img-container img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.other-body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Centers and distributes space between children */
+    padding: 20px 0;
+}
+
+.other-body {
+    margin: 10px; /* Space between the boxes */
+    box-sizing: border-box;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #F5EEE6, #BCCEF8);
+    color: #333;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2), 0 1.5rem 3rem rgba(0, 0, 0, 0.15), 0 4rem 6rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    border-top: 3px solid #ccc;
+    border-bottom: 2px solid #4F6F52;
+}
+
+@media(min-width: 950px) {
+  .img-container {
+    position: absolute;
+    right: 27vh;
+    top: 233vh;
+    width: 24%;
+    padding: 0;
+    margin: 0;
+  }
+  .half-width {
+    width: 62%;
+  }
+
+  .img-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .other-body {
+    width: 45%; /* Each child takes up less than half of the container width to fit two per row */
+
+}
+}
+.text-content {
+  padding: 0 78px;
+  /* text-align: center; */
+}
+
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column; /* Stack the elements vertically on smaller screens */
+      width: 85%;
+  }
+  .img-container, .text-content {
+      padding: 0;
+      /* text-align: center; */
+  }
+}
+
+.other-body{
+  /* background-color: #000; */
+}
+
+
+.text {
+    width: 60%; /* Adjust the width of the text container */
+}
+
+.head1 {
+    text-align: center; /* Center the h1 element */
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.head1 h1 {
+    color: #3498db;
+}
+
+
+.content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.content strong {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Additional styling for better spacing */
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Footer styles */
+
+

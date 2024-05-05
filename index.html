@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Other head elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shieldwise Security</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <style>
+
+    /* Base styles for the container */
+        .main1 {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+
+               
+        .roller1 {
+          height: 4.125rem;
+          line-height: 4rem;
+          position: relative;
+          margin-bottom: 30px;
+          overflow: hidden;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #E36414;
+        }
+        
+        #spare-time {
+          font-size: 1rem;
+          font-style: italic;
+          letter-spacing: 1rem;
+          margin-top: 0;
+        }
+        
+        #rolltext {
+          margin-top: 6px;
+        }
+        
+        .roller1 #rolltext {
+          position: absolute;
+          top: 0;
+          animation: slide 5s infinite;
+        }
+        
+        .main1 h1 {
+            min-width: 75%;
+            text-align: center;
+            color: black;
+            font-size: 1.2rem;
+            background-color: rgba(0, 0, 0, 0.06);
+            padding: 0 25px;
+            border-radius: 13px;
+          }
+        
+        @keyframes slide {
+          0% {
+            top: 0;
+          }
+          25% {
+            top: -4rem;
+          }
+          50% {
+            top: -8rem;
+          }
+          72.5% {
+            top: -12.25rem;
+          }
+        }
+        
+        @media screen and (max-width: 600px) {
+          .main1 h1 {
+            min-width: 80%;
+            text-align: center;
+            color: black;
+            font-size: 1.125rem;
+            background-color: rgba(0, 0, 0, 0.05);
+            padding: 0 23px;
+            border-radius: 10px;
+          }
+        
+          #rolltext {
+            font-size: 2rem; /* Adjust font size for ShieldWise on small screens */
+          }
+        
+          #spare-time {
+            font-size: 1.5rem; /* Adjust font size for "Guardian OF Your Peace" on small screens */
+          }
+        }
+                
+        
+      
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .social-media,
+        .contact-info,
+        .privacy-links {
+            margin-bottom: 20px;
+        }
+
+        .social-media a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .privacy-links a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+      .container3 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .header3 {
+        background-color: #948979;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        text-align: center;
+      }
+      .header__title3 {
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+        font-family: Georgia, serif;
+      }
+
+      .main-content3 {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+        background-image: url('img/00.jpg'); /* Set the background image */
+        background-size: cover; /* Cover the entire area of the div */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the background */
+        background-attachment: fixed; /* Optional: Keep the background fixed during scroll */
+        padding: 50px 20px; /* Add padding to ensure text does not touch the edges */
+        text-shadow: 0px 0px 8px rgba(0,0,0,0.7); /* Optional: Text shadow for better readability */
+    }
+
+    .main-content3::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+        z-index: -1; /* Ensure the overlay is behind the text */
+    }
+
+      .main-content__text3 {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20px;
+        max-width: 600px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+          
+    </style>
+
+   
+</head>
+
+<body>
+    <header>
+        <!-- Phone Number Navigation Bar -->
+        <nav class="phone-bar">
+            <div class="call-us">Call us on: 714-716-7430 </div>
+        </nav>
+
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+          <!--      <li><a href="career.html">Career</a></li>       -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="logo-container">
+                <img src="img/one.png" alt="Shieldwise Security Logo">
+            </div>
+        </nav>
+    </header>
+
+  <div class="container3">
+    <header class="header3">
+      <h1 class="header__title3">SHIELDWISE Security</h1>
+    </header>
+    <main class="main-content3">
+      <p class="main-content__text3">Welcome to SHIELDWISE Security, your trusted partner in comprehensive cyber security solutions. Our cutting-edge technology and expert team ensure your digital assets are protected against the ever-evolving threats of the online world.</p>
+    </main>    
+  </div>
+
+  <div class="main1">
+        <h1 style="text-align: center;font-size: 3rem; padding-top: 10px; margin-top: 1em;"> We Are:
+            <div class="roller1">
+                <span id="rolltext">Shield <br/>
+                <br/>
+               <div style="color: #15F5BA;">Security<br/> </div> 
+                <span id="spare-time" style="font-size: 1.8rem; letter-spacing: .02rem; color: #43766C;">Guardian OF Your Peace</span><br/>
+                </span>
+            </div>
+        </h1>
+    </div>
+
+  
+  <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 20vh;
+      margin: 5;
+     
+  ">
+      <p class="bounce_in_animation" style="
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+          color: #fff;
+          background: linear-gradient(90deg, #4caf50, #3498db, #e74c3c);
+          background-size: 200% 200%;
+          animation: gradientAnimation 5s infinite;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      ">
+          Defend your business with ShieldWise Security
+      </p>
+
+      <style>
+          @keyframes gradientAnimation {
+              0% {
+                  background-position: 0% 50%;
+              }
+              50% {
+                  background-position: 100% 50%;
+              }
+              100% {
+                  background-position: 0% 50%;
+              }
+          }
+      </style>
+  </div>      
+
+  
+  <div class="content">
+    <div class="text-content">
+        <div class="head1">
+            <h1>Why Choose us?</h1>
+        </div>
+        <p class="half-width"><strong>ShieldWise Security Services:</strong> Stands out as one of the premier security companies in California, delivering top-notch security solutions statewide. With years of expertise in the security sector and a multitude of satisfied clients, we take pride in offering a comprehensive range of services across various industries.</p>
+        <p class="half-width"><strong>Experienced Staff, Personalized Approach:</strong> Our team of security personnel is not only experienced but also highly trained, qualified, and certified, ensuring that we meet all private security requirements. Dedicated to the safety and well-being of our clients' businesses, our staff undergoes specialized training to handle diverse security challenges.</p>
+        <p><strong>Meeting Your Unique Needs:</strong> At ShieldWise, we understand that each client has unique needs and requirements. Therefore, our team collaborates closely with every client to tailor our security services accordingly. This personalized approach allows us to provide optimal security solutions for businesses.</p>
+        <p><strong>Investment in Resources:</strong> To ensure the highest level of security, we invest in both human and material resources for each mission. This commitment reflects our dedication to delivering effective security services that instill confidence and peace of mind in our clients.</p>
+    </div>
+    <div class="img-container">
+        <img id="flag" src="img/flag.jpg" alt="Flag Image">
+    </div>
+</div>
+
+
+<!--           other body         -->
+
+  <div class="other-body-container">
+    <div class="other-body">
+      <div style="perspective: 1000px;"> <div style="
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 2rem;
+        transform: translateZ(10px) skewY(-2deg); box-shadow:
+          0 0.5rem 1.5rem rgba(0, 0, 0, 0.2),
+          0 1.5rem 3rem rgba(0, 0, 0, 0.15),
+          0 4rem 6rem rgba(0, 0, 0, 0.1),
+          0 0.4rem 0.5rem rgba(255, 255, 255, 0.15); border-radius: 0.5rem;
+        border-top: 3px solid #ccc; 
+        border-bottom: 2px solid #4F6F52;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #F5EEE6, #BCCEF8); 
+        background-color: #FAF7F0;
+        color: #333; 
+      ">
+    </div>
+        </div>
+    
+      <ol style="list-style: none; counter-reset: list; padding: 0 1rem;">
+        <li style="box-sizing: border-box; --stop: calc(100% / 3 * 1); --l: 62%; --l2: 88%; --h: calc((1 - 1) * (180 / 3)); --c1: hsl(var(--h), 71%, var(--l)); --c2: hsl(var(--h), 71%, var(--l2)); position: relative; counter-increment: list; max-width: 45rem; margin: 2rem auto; padding: 2rem 1rem 1rem; box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3); border-radius: 0.25rem; overflow: hidden; background-color: white;">
+          <h3 style="display: flex; align-items: baseline; margin: 0 0 1rem; color: rgb(70 70 70);">
+            <span style="display: flex; justify-content: center; align-items: center; flex: 0 0 auto; margin-right: 1rem; width: 3rem; height: 3rem; padding: 1rem; border-radius: 50%; background-color: var(--c1); color: white;">1</span>
+            Why Choose ShieldWise Security
+          </h3>
+          <p style="margin: 0; line-height: 1.6;">Recognizing the unique security needs of each client, ShieldWise tailors solutions to ensure comprehensive and precise security measures. Our team consists of skilled and trained security professionals, ShieldWise Security prioritizes client satisfaction. Choose ShieldWise Security Services for a reliable partner that goes above and beyond to safeguard your business and assets.</p>
+        </li>
+    
+      </ol>
+    </div>
+  
+  
+    <div class="other-body">
+      
+      <div style="perspective: 1000px;"> <div style="
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        max-width: 45rem;
+        margin: 2rem auto;
+        padding: 2rem;
+        transform: translateZ(10px) skewY(-2deg); box-shadow:
+          0 0.5rem 1.5rem rgba(0, 0, 0, 0.2),
+          0 1.5rem 3rem rgba(0, 0, 0, 0.15),
+          0 4rem 6rem rgba(0, 0, 0, 0.1),
+          0 0.4rem 0.5rem rgba(255, 255, 255, 0.15); border-radius: 0.5rem;
+        border-top: 3px solid #ccc; 
+        border-bottom: 2px solid #4F6F52;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #F5EEE6, #BCCEF8); 
+        background-color: #FAF7F0;
+        color: #333; 
+      ">
+      </div>
+        </div>
+    
+    
+          <ol style="list-style: none; counter-reset: list; padding: 0 1rem;">
+            <li style="box-sizing: border-box; --stop: calc(100% / 3 * 1); --l: 62%; --l2: 88%; --h: calc((1 - 1) * (180 / 3)); --c1: hsl(var(--h), 71%, var(--l)); --c2: hsl(var(--h), 71%, var(--l2)); position: relative; counter-increment: list; max-width: 45rem; margin: 2rem auto; padding: 2rem 1rem 1rem; box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3); border-radius: 0.25rem; overflow: hidden; background-color: white;">
+              <h3 style="display: flex; align-items: baseline; margin: 0 0 1rem; color: rgb(70 70 70);">
+                <span style="display: flex; justify-content: center; align-items: center; flex: 0 0 auto; margin-right: 1rem; width: 3rem; height: 3rem; padding: 1rem; border-radius: 50%; background-color:#7FC7D9; color: white;">2</span>
+              </h3>
+              <h3 style="--length: 3;">Our Mission</h3>
+              <p style="margin: 0; line-height: 1.6;">Our primary mission at ShieldWise Security is to set the standard for excellence in the security industry. We strive to create a safer environment for individuals, businesses, and communities by delivering innovative and effective security solutions. Our commitment extends beyond traditional security measures, encompassing a holistic approach that considers potential risks and implements proactive strategies to mitigate them.</p>
+            </li>
+    
+            </ol>
+    </div>
+  
+         <div class="other-body">
+          <div style="perspective: 1000px;"> <div style="
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            max-width: 45rem;
+            margin: 2rem auto;
+            padding: 2rem;
+            transform: translateZ(10px) skewY(-2deg); box-shadow:
+              0 0.5rem 1.5rem rgba(0, 0, 0, 0.2),
+              0 1.5rem 3rem rgba(0, 0, 0, 0.15),
+              0 4rem 6rem rgba(0, 0, 0, 0.1),
+              0 0.4rem 0.5rem rgba(255, 255, 255, 0.15); border-radius: 0.5rem;
+            border-top: 3px solid #ccc; 
+            border-bottom: 2px solid #4F6F52;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background: linear-gradient(to bottom right, #F5EEE6, #BCCEF8); 
+            background-color: #FAF7F0;
+            color: #333; 
+          ">
+        </div>
+        </div>
+        
+                  <ol style="list-style: none; counter-reset: list; padding: 0 1rem;">
+                   
+                      <li style="box-sizing: border-box; --stop: calc(100% / 3 * 2); --l: 62%; --l2: 88%; --h: calc((2 - 1) * (180 / 3)); --c1: hsl(var(--h), 71%, var(--l)); --c2: hsl(var(--h), 71%, var(--l2)); position: relative; counter-increment: list; max-width: 45rem; margin: 2rem auto; padding: 2rem 1rem 1rem; box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3); border-radius: 0.25rem; overflow: hidden; background-color: white;">
+                      <h3 style="display: flex; align-items: baseline; margin: 0 0 1rem; color: rgb(70 70 70);">
+                        <span style="display: flex; justify-content: center; align-items: center; flex: 0 0 auto; margin-right: 1rem; width: 3rem; height: 3rem; padding: 1rem; border-radius: 50%; background-color: #FAEF9B; color: white;">3</span>
+                        Cutting-Edge Technology
+                      </h3>
+                      <p style="margin: 0; line-height: 1.6;">At ShieldWise security, we embrace leading-edge technology as a cornerstone of our commitment to exceeding client expectations. We integrate state-of-the-art surveillance systems, innovative access control solutions, and other emerging technologies to deliver the highest level of protection and service. This unwavering dedication to staying at the forefront of the security industry ensures our clients benefit from the most effective and adaptable security solutions available.</p>
+                    </li>
+                  </ol>
+         </div>
+             
+  
+    <div class="other-body">
+      <div style="perspective: 1000px;"> <div style="
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        max-width: 45rem;
+        margin: 2rem auto;
+        padding: 2rem;
+        transform: translateZ(10px) skewY(-2deg); box-shadow:
+          0 0.5rem 1.5rem rgba(0, 0, 0, 0.2),
+          0 1.5rem 3rem rgba(0, 0, 0, 0.15),
+          0 4rem 6rem rgba(0, 0, 0, 0.1),
+          0 0.4rem 0.5rem rgba(255, 255, 255, 0.15); border-radius: 0.5rem;
+        border-top: 3px solid #ccc; 
+        border-bottom: 2px solid #4F6F52;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+        overflow: hidden;
+        background: linear-gradient(to bottom right, #F5EEE6, #BCCEF8); 
+    
+        background-color: #FAF7F0;
+        color: #333; 
+      ">
+    </div>
+                </div>
+    
+    
+    
+                  <ol style="list-style: none; counter-reset: list; padding: 0 1rem;">
+                    <li style="box-sizing: border-box; --stop: calc(100% / 3 * 1); --l: 62%; --l2: 88%; --h: calc((1 - 1) * (180 / 3)); --c1: hsl(var(--h), 71%, var(--l)); --c2: hsl(var(--h), 71%, var(--l2)); position: relative; counter-increment: list; max-width: 45rem; margin: 2rem auto; padding: 2rem 1rem 1rem; box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3); border-radius: 0.25rem; overflow: hidden; background-color: white;">
+                      <h3 style="display: flex; align-items: baseline; margin: 0 0 1rem; color: rgb(70 70 70);">
+                        <span style="display: flex; justify-content: center; align-items: center; flex: 0 0 auto; margin-right: 1rem; width: 3rem; height: 3rem; padding: 1rem; border-radius: 50%; background-color: #3652AD; color: white;">4</span>
+                        Our Security Experiences
+                      </h3>
+                      <p style="margin: 0; line-height: 1.6;">Forged through years of security experience, we excel in providing personalized security solutions for businesses of all sizes. Our proven expertise encompasses securing high-profile events, safeguarding businesses and communities, and building comprehensive security strategies for diverse organizations. With a commitment to excellence, we prioritize the safety and well-being of our clients, ensuring peace of mind in every security endeavor.</p>
+                    </li>
+                  </ol>
+    </div>
+  </div>
+ 
+    <!-- Footer Section -->
+ <footer style="background-color: black; width: 100%;
+   box-sizing: border-box; margin: 0; color: white; padding: 20px; text-align: center; width: 100%;">
+    <div class="social-media" style="text-align: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 10px;">Connect with Us</h3>
+        <a href="https://www.instagram.com/shieldwisesecurity/" target="_blank" title="Instagram" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-instagram" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61556347858360" target="_blank" title="Facebook" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-facebook-f" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+        <a href="#" target="_blank" title="Twitter" style="display: inline-block; margin-right: 15px; color: #fff; text-decoration: none; font-size: 24px;"> <i class="fab fa-twitter" onmouseover="this.style.color='#ffd700'" onmouseout="this.style.color='#fff'"></i></a>
+    </div>
+
+    <div class="privacy-links" style="text-align: center; margin-bottom: 30px;">
+        <h3 style="margin-top: 80px;">Copyright Disclaimer:</h3>
+        <p style="margin-top: 30px; font-size: 16px; color: white;"> All content on this website is copyrighted and owned by ShieldWise Security. Unauthorized use or reproduction is strictly prohibited.</p>
+    </div>
+
+    <div class="contact-info" style="text-align: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 10px;">Contact Information</h3>
+        <p class="emails" style="margin: 0; font-size: 16px; color: white;">Email: <a href="mailto:info@shieldwisesecurity.com" style="color: white;">info@shieldwisesecurity.com</a></p>
+    </div>
+</footer>
+
+               
+             
+</body>
+
+</html>
